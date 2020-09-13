@@ -1,0 +1,9 @@
+linuxcool首页xpath语法：
+//div[contains(@class, 'column col-half')]/ul/li/a/@href
+
+详情页的xpath语法：
+useage:
+//p/strong[contains(text(), '语法格式')]/parent::node()/text()
+
+parm:
+//article//table//td/text()
