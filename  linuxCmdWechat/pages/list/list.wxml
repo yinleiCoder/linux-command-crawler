@@ -1,0 +1,11 @@
+<view class="title">Linux命令行大全</view>
+
+<view class="main">
+    <view class="item" wx:for="{{list}}" wx:for-item="it" wx:key="it">
+      <navigator url="/pages/cmd/cmd?cmd={{it}}">{{it}}</navigator>
+    </view>
+</view>
+<view class="rocket">
+  <image src="../img/rocket.png"></image>
+</view>
+

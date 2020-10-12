@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/list/list",
+    "pages/cmd/cmd"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#5B8982",
+    "navigationBarTitleText": "作者: 尹磊",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

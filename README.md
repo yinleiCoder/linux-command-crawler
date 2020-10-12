@@ -64,9 +64,12 @@ Node环境[还可以使用其他语言环境]，并将本地的代码上传到�
 
 1. https://service-osrdenkx-1301156794.cd.apigw.tencentcs.com/release/linux-cmd?type=byName&name=linux的命令
 
-e.g: https://service-osrdenkx-1301156794.cd.apigw.tencentcs.com/release/linux-cmd?type=byName&name=ls
-
-2. https://service-osrdenkx-1301156794.cd.apigw.tencentcs.com/release/linux-cmd?type=getAllName
-
+e.g: https://service-f57fq73b-1301156794.cd.apigw.tencentcs.com/release/linux-cmd?type=byName&name=ls
+2. https://service-f57fq73b-1301156794.cd.apigw.tencentcs.com/release/linux-cmd?type=getAllName
 
 
+### 微信小程序：
+
+这里写的微信小程序很简单，只是简单的调用了上面搭建好的腾讯云后端服务，不过需要注意的是，需要将自己的腾讯云函数域名添加到小程序服务器域名白名单。
+
+微信小程序官网-》登录-》开发-》开发设置-》服务器域名-》添加域名到request合法域名。

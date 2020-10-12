@@ -1,0 +1,105 @@
+page {
+  background: #5B8982;
+  padding: 22rpx;
+  
+}
+.name {
+  width: fit-content;
+  margin: 33rpx auto;
+  text-align: center;
+  font-size: 54rpx;
+  color: #BAC8A0;
+  padding: 8rpx;
+  font-weight: bold;
+  border-radius: 5rpx;
+  position: relative;
+}
+.name::after {
+  content: '';
+  display: block;
+  width: 88rpx;
+  height: 88rpx;
+  background: #fff;
+  position: absolute;
+  left: 45%;
+  top: 0;
+  transform: translateX(-50%);
+  box-shadow: 
+                39rpx -20rpx 0 0 #fff,
+                33rpx 28rpx 0 0 #fff,
+                90rpx -36rpx 0 0 #fff,
+                93rpx 24rpx 0 0 #fff,
+                146rpx 20rpx 0 0 #fff;
+  border-radius: 50%;
+  z-index: -1;
+  animation: cloud 2s linear infinite alternate;
+}
+
+@keyframes cloud{
+  100%{
+    transform: translate(-50%, 33rpx);
+  }
+}
+
+.usage {
+  font-size: 40rpx;
+  color: #fff;
+  padding: 22rpx;
+  background: #BAC8A0;
+  width: fit-content;
+  border-radius: 16rpx;
+  margin: 22rpx;
+}
+
+.param{
+  color: #fff;
+  margin-bottom: 20rpx;
+  border-bottom: 5rpx solid #BAC8A0;
+}
+
+.item-param{
+  color: tomato;
+  font-weight: bold;
+}
+
+.name::before {
+  content: '';
+  display: block;
+  width: 6rpx;
+  height: 12rpx;
+  position: absolute;
+  left: 45%;
+  top: 0;
+  transform: translate(-50%, 22rpx);
+  box-shadow: 
+      20rpx 0 0 0 #fff,
+      80rpx 0 0 0 #fff,
+      140rpx 0 0 0 #fff,
+      170rpx 0 0 0 #fff;
+  animation: rain 0.6s linear infinite;
+}
+
+@keyframes rain {
+  0%{
+      box-shadow:  20rpx 30rpx 0 0 #fff,
+      80rpx 40rpx 0 0 #fff,
+      140rpx 0 0 0 #fff,
+      170rpx 20rpx 0 0 #fff;
+  }
+  100%{
+      box-shadow:  20rpx 200rpx 0 0 #fff,
+      80rpx 230rpx 0 0 #fff,
+      140rpx 240rpx 0 0 #fff,
+      170rpx 200rpx 0 0 #fff;
+  }
+}
+
+.copyright{
+  font-size: 22rpx;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
