@@ -4,6 +4,8 @@
   <span class="item-param">{{it.param}}</span> {{it.content}}
 </view>
 
+<official-account></official-account>
+
 <view class="copyright">
   <text>数据支持: www.linuxcool.com</text>
   <text>数据库支持: www.cloud.mongodb.com</text>

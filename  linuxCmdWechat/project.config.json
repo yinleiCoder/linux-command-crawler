@@ -75,6 +75,12 @@
           "pathName": "pages/cmd/cmd",
           "query": "cmd=ls",
           "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/list/list",
+          "pathName": "pages/list/list",
+          "scene": 1011
         }
       ]
     }
