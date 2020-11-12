@@ -1,11 +1,12 @@
 # Linux命令行手册[爬虫]:clown_face:
 - 数据来源：https://www.linuxcool.com/
-
 - 数据存储：mongodb：https://www.mongodb.com/cloud
-
 - 后台：Servless服务[腾讯云服务]
 - python: 爬虫(xpath语法)
 - 前端：微信小程序
+- 桌面端：Electron
+
+![](E:\PycharmProjects\linuxCommandCrawler\wechat.jpg)
 
 ### chrome爬取【正则】：
 
@@ -73,3 +74,4 @@ e.g: https://service-f57fq73b-1301156794.cd.apigw.tencentcs.com/release/linux-cm
 这里写的微信小程序很简单，只是简单的调用了上面搭建好的腾讯云后端服务，不过需要注意的是，需要将自己的腾讯云函数域名添加到小程序服务器域名白名单。
 
 微信小程序官网-》登录-》开发-》开发设置-》服务器域名-》添加域名到request合法域名。
+
